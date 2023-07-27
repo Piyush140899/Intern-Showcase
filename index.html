@@ -1,44 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML File</title>
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Sample Website</h1>
-        <h2>
-            Adding this comment which will be my second commit
-        </h2>
-        <h2> third commit </h2>
-
-        <h3> Adding this to see if CIC actually works with github and netlify</h3>
-    </header>
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="navbar">
+            <a href="#home" class="active"><i class="fas fa-home"></i></a>
+            <a href="#project1"><i class="fas fa-code"></i></a>
+            <a href="#project2"><i class="fas fa-laptop"></i></a>
+            <!-- Add more project icons here -->
+        </div>
     </nav>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et turpis ut nunc hendrerit venenatis. Nam consectetur, quam id commodo consequat, felis enim dictum velit, nec rhoncus mauris metus vel nunc.</p>
-        </section>
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>Graphic Design</li>
-                <li>Digital Marketing</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Your Sample Website. All rights reserved.</p>
-    </footer>
+
+    <header id="home">
+        <h1>Welcome to Your Portfolio</h1>
+        <p>Introduce yourself and showcase your skills here.</p>
+    </header>
+
+    <section id="project1">
+        <h2>Project 1</h2>
+        <p>Project description and details go here.</p>
+    </section>
+
+    <section id="project2">
+        <h2>Project 2</h2>
+        <p>Project description and details go here.</p>
+    </section>
+
+    <!-- Add more sections for other projects -->
+
+    <script src="script.js"></script>
 </body>
 </html>
